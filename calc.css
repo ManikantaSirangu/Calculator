@@ -1,0 +1,33 @@
+body{
+    background-image: url(./img/backpic.jpg);
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#calc{
+    height: 290px;
+    background-color: #343a40;
+    width: 240px;
+}
+#calctext{
+    width: 100%;
+    padding-bottom: 70px;
+    outline: none;
+}
+#calcblocks{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#calcblocks > div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: medium;
+    color: white;
+}
+#calcblocks > div:hover{
+    cursor: pointer;
+    background-color: #6c757d;
+}
+
